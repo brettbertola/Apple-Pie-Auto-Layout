@@ -12,6 +12,7 @@
 		FE0AD1F920470CFE00AFEEA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE0AD1F720470CFE00AFEEA9 /* Main.storyboard */; };
 		FE0AD1FB20470CFE00AFEEA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE0AD1FA20470CFE00AFEEA9 /* Assets.xcassets */; };
 		FE0AD1FE20470CFE00AFEEA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE0AD1FC20470CFE00AFEEA9 /* LaunchScreen.storyboard */; };
+		FEB106FC204714DA00BABB5F /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB106FB204714DA00BABB5F /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FE0AD1FA20470CFE00AFEEA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE0AD1FD20470CFE00AFEEA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE0AD1FF20470CFE00AFEEA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEB106FB204714DA00BABB5F /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				FE0AD1F320470CFE00AFEEA9 /* AppDelegate.swift */,
 				FE0AD1F520470CFE00AFEEA9 /* ViewController.swift */,
 				FE0AD1F720470CFE00AFEEA9 /* Main.storyboard */,
+				FEB106FB204714DA00BABB5F /* Game.swift */,
 				FE0AD1FA20470CFE00AFEEA9 /* Assets.xcassets */,
 				FE0AD1FC20470CFE00AFEEA9 /* LaunchScreen.storyboard */,
 				FE0AD1FF20470CFE00AFEEA9 /* Info.plist */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE0AD1F620470CFE00AFEEA9 /* ViewController.swift in Sources */,
+				FEB106FC204714DA00BABB5F /* Game.swift in Sources */,
 				FE0AD1F420470CFE00AFEEA9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,7 +285,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.brettbertola.Apple-Pie-Auto-Layout";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -296,7 +300,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.brettbertola.Apple-Pie-Auto-Layout";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
